@@ -4,7 +4,7 @@ trigger:
 pool: D65
 
 variables:
-  COMPONENT: python
+  COMPONENT: payment
 
 
 resources:
