@@ -7,5 +7,13 @@ ingress:
   scheme: null
 
 configMap:
-  enabled: false
+  enabled: true 
+  data:
+    CART_HOST: cart
+    CART_PORT: "8080"
+    USER_HOST: user
+    USER_PORT: "8080"
+    AMQP_HOST: rabbimq-prod.roboshop.internal
+    AMQP_USER: roboshop
+    AMQP_PASS: roboshop123
 
